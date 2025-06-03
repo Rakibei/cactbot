@@ -11,8 +11,8 @@ export const zoneInfoSouthHorn: EurekaZoneInfo = {
   hasTracker: false,
   onlyShowInactiveWithExplicitRespawns: true,
   treatNMsAsSkirmishes: true,
-  mapToPixelXScalar: 51,
-  mapToPixelXConstant: -90,
+  mapToPixelXScalar: 50,
+  mapToPixelXConstant: -50,
   mapToPixelYScalar: 50,
   mapToPixelYConstant: -50,
   fieldNotes: [
