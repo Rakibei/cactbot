@@ -435,7 +435,7 @@ export const zoneInfoSouthHorn: EurekaZoneInfo = {
       bunny: true,
       fateId: 1977,
     },
-    theforkedtowerblood: {
+/*    theforkedtowerblood: {
       label: {
         en: 'The Forked Tower: Blood',
         de: 'Der Turm des Blutes',
@@ -457,7 +457,7 @@ export const zoneInfoSouthHorn: EurekaZoneInfo = {
       isCritical: true,
       ceKey: 0,
     },
-
+    */
     scourgeofthemind: {
       label: {
         en: 'Scourge of the Mind',
