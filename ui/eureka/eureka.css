@@ -59,7 +59,7 @@
   width: 100%;
   height: 0;
   position: relative;
-  padding-bottom: calc(1000% / 10);
+  padding-bottom: 100%;
 }
 
 .inner-container {
@@ -305,7 +305,7 @@
 }
 
 .aspect-ratio-southhorn #label-container {
-  top: 70%;
+  bottom: 0px;
 }
 
 .aspect-ratio-hydatos #portal-timer-container {

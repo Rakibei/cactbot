@@ -36,6 +36,13 @@ import './eureka.css';
 // TODO: get all of the elements required up front in the constructor
 // TODO: split NMInfo from some new InitializedNMInfo, which includes required element/timeElement
 
+const areaNames = [
+  'Eureka (?:Anemos|Pagos|Pyros|Hydatos)',
+  'Bozjan Southern Front',
+  'Zadnor',
+  'South Horn',
+].join('|');
+
 const numWeatherElem = 5;
 
 type WeatherForFunc = (nowMs: number, stopTime?: number) => string;
@@ -152,7 +159,7 @@ const defaultOptions: EurekaOptions = {
       flagRegex: NetRegexes.gameLog({
         code: '00..',
         line:
-          '(?<before>.*)\ue0bb(?:Eureka (?:Anemos|Pagos|Pyros|Hydatos)|Bozjan Southern Front|Zadnor|South Horn ) \\( (?<x>\\y{Float})\\s*, (?<y>\\y{Float}) \\)(?<after>.*?)',
+          `(?<before>.*)\ue0bb(?:${areaNames}) \\( (?<x>\\y{Float})\\s*, (?<y>\\y{Float}) \\)(?<after>.*?)`,
       }),
       trackerRegex: NetRegexes.gameLog(
         { line: '.*?(?:https://)?ffxiv-eureka\\.com/(?<id>[_\\w-]{6}).*?' },
@@ -215,8 +222,8 @@ const gWeatherIcons: { [weather: string]: string } = {
   'Wind': '&#x1F32A;',
   'Clouds': '&#9729;',
   'Dust Storms': '&#x1F4A8;',
-  'Illusory Disturbances': '&#x1F9E9;',
-  'Atmospheric Phantasms': '&#x1FAE7;',
+  'Illusory Disturbances': '&#x1F9E9;', // &#x1F7E2; Maybe use these instead?
+  'Atmospheric Phantasms': '&#x1FAE7;', // &#x26AA;
 } as const;
 const gNightIcon = '&#x1F319;';
 const gDayIcon = '&#x263C;';
