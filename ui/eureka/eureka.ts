@@ -36,7 +36,8 @@ import './eureka.css';
 // TODO: get all of the elements required up front in the constructor
 // TODO: split NMInfo from some new InitializedNMInfo, which includes required element/timeElement
 
-// TODO: Pull the area names from PlaceName (not currently cached locally, will require expanding the `ZoneInfo` type or adding a new resource file)
+// TODO: Pull the area names from PlaceName (not currently cached locally)
+// (will require expanding the `ZoneInfo` type or adding a new resource file)
 // Should pull as LocaleText, then automatically translate the regexes with it.
 const areaNames = [
   'Eureka (?:Anemos|Pagos|Pyros|Hydatos)',
