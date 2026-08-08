@@ -99,7 +99,7 @@ body {
   z-index: 20;
   top: 0;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(220px, 320px);
+  grid-template-columns: minmax(0, 1fr) minmax(220px, 400px) minmax(0, 1fr);
   gap: 24px;
   align-items: end;
   margin-bottom: 20px;
@@ -111,27 +111,27 @@ body {
 
 /* Top-level category themes. Unknown/custom groups keep the default indigo theme above. */
 .config-toolbar[data-category="general"] {
-  --toolbar-bg: linear-gradient(135deg, #eaf3ff 0%, rgb(255 255 255 / 97%) 72%);
+  --toolbar-bg: linear-gradient(135deg, #87bbff 0%, rgb(255 255 255 / 97%) 72%);
 }
 
 .config-toolbar[data-category="raidboss"] {
-  --toolbar-bg: linear-gradient(135deg, #fff0f0 0%, rgb(255 255 255 / 97%) 72%);
+  --toolbar-bg: linear-gradient(135deg, #fc5151 0%, rgb(255 255 255 / 97%) 72%);
 }
 
 .config-toolbar[data-category="jobs"] {
-  --toolbar-bg: linear-gradient(135deg, #e9fbf7 0%, rgb(255 255 255 / 97%) 72%);
+  --toolbar-bg: linear-gradient(135deg, #faf757 0%, rgb(255 255 255 / 97%) 72%);
 }
 
 .config-toolbar[data-category="eureka"] {
-  --toolbar-bg: linear-gradient(135deg, #f4efff 0%, rgb(255 255 255 / 97%) 72%);
+  --toolbar-bg: linear-gradient(135deg, #a077fc 0%, rgb(255 255 255 / 97%) 72%);
 }
 
 .config-toolbar[data-category="oopsyraidsy"] {
-  --toolbar-bg: linear-gradient(135deg, #fff4e8 0%, rgb(255 255 255 / 97%) 72%);
+  --toolbar-bg: linear-gradient(135deg, #f7a74f 0%, rgb(255 255 255 / 97%) 72%);
 }
 
 .config-toolbar[data-category="radar"] {
-  --toolbar-bg: linear-gradient(135deg, #ecfdf3 0%, rgb(255 255 255 / 97%) 72%);
+  --toolbar-bg: linear-gradient(135deg, #78faad 0%, rgb(255 255 255 / 97%) 72%);
 }
 
 .config-subtitle {
