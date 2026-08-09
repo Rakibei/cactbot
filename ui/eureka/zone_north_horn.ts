@@ -480,7 +480,7 @@ export const zoneInfoNorthHorn: EurekaZoneInfo = {
         cn: '被吹飞的魔法罐',
         ko: '날아가는 마법 항아리',
       },
-      fieldNotes: 1,
+      fieldNotes: 11,
       shortLabel: {
         en: 'Pots',
         de: 'Pott',
@@ -505,7 +505,7 @@ export const zoneInfoNorthHorn: EurekaZoneInfo = {
         cn: '被欺负的魔法罐',
         ko: '찾아다니는 마법 항아리',
       },
-      fieldNotes: 1,
+      fieldNotes: 11,
       shortLabel: {
         en: 'Pots',
         de: 'Pott',
@@ -574,7 +574,7 @@ export const zoneInfoNorthHorn: EurekaZoneInfo = {
         cn: '魔女复制体——卡洛菲斯提莉二重身',
         ko: '마녀의 복제 \'칼로피스테리 분신\'',
       },
-      fieldNotes: 8,
+      fieldNotes: 53,
       shortLabel: {
         en: 'Trouble',
         de: 'Doppelt',
@@ -597,7 +597,7 @@ export const zoneInfoNorthHorn: EurekaZoneInfo = {
         cn: '纯白守护者——雪石膏之剑',
         ko: '하얀 수호자 \'설화석고 검사\'',
       },
-      fieldNotes: 7,
+      fieldNotes: 50,
       shortLabel: {
         en: 'Quarried',
         de: 'Schwert',
@@ -620,7 +620,7 @@ export const zoneInfoNorthHorn: EurekaZoneInfo = {
         cn: '禁书化形——古术魔典',
         ko: '금단의 마도서 \'아르바텔\'',
       },
-      fieldNotes: 9,
+      fieldNotes: 33,
       shortLabel: {
         en: 'Folios',
         de: 'Wissen',
@@ -643,7 +643,7 @@ export const zoneInfoNorthHorn: EurekaZoneInfo = {
         cn: '暗红尸骸——赤龙',
         ko: '검붉은 시룡 \'루브룸 드래곤\'',
       },
-      fieldNotes: 6,
+      fieldNotes: 48,
       shortLabel: {
         en: 'Resurgence',
         de: 'Kralle',
@@ -666,7 +666,7 @@ export const zoneInfoNorthHorn: EurekaZoneInfo = {
         cn: '暴食咒鬼——阿尔戈尔',
         ko: '폭식의 저주괴물 \'알골\'',
       },
-      fieldNotes: 10,
+      fieldNotes: 35,
       shortLabel: {
         en: 'Diet',
         de: 'Unheil',
@@ -733,7 +733,7 @@ export const zoneInfoNorthHorn: EurekaZoneInfo = {
         cn: '天道好轮回——魔亡灵法师',
         ko: '사령을 다루는 망령 \'마기 강령술사\'',
       },
-      fieldNotes: 4,
+      fieldNotes: 42,
       shortLabel: {
         en: 'Artistry',
         de: 'Tod',
@@ -778,7 +778,7 @@ export const zoneInfoNorthHorn: EurekaZoneInfo = {
         cn: '诅咒的继承者——惨白魔人',
         ko: '저주를 잇는 자 \'창백한 마기아\'',
       },
-      fieldNotes: 3,
+      fieldNotes: 41,
       shortLabel: {
         en: 'Behavior',
         de: 'Verflucht',
@@ -824,7 +824,7 @@ export const zoneInfoNorthHorn: EurekaZoneInfo = {
         cn: '孤岛的绑架犯——诱拐魔',
         ko: '외딴섬의 납치범 \'유괴자\'',
       },
-      fieldNotes: 5,
+      fieldNotes: 44,
       shortLabel: {
         en: 'Wind',
         de: 'Winde',
@@ -869,7 +869,7 @@ export const zoneInfoNorthHorn: EurekaZoneInfo = {
         cn: '拟态使魔——变形法师',
         ko: '변화하는 사역마 \'메타몰퍼\'',
       },
-      fieldNotes: 2,
+      fieldNotes: 38,
       shortLabel: {
         en: 'Imitators',
         de: 'Mimikry',
