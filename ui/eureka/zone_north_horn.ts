@@ -19,7 +19,7 @@ export const zoneInfoNorthHorn: EurekaZoneInfo = {
   mapToPixelYConstant: -50,
   fieldNotes: [
     {
-      id: 1,
+      id: 11,
       name: {
         en: 'Persistent Pots',
         de: 'Der Wunderpott',
@@ -39,7 +39,67 @@ export const zoneInfoNorthHorn: EurekaZoneInfo = {
       rarity: 0,
     },
     {
-      id: 2,
+      id: 33,
+      name: {
+        en: 'Arbatel',
+        de: 'Arbatel',
+        fr: 'Arbatel',
+        ja: 'アルバテル',
+        cn: '古术魔典',
+        ko: '아르바텔',
+      },
+      shortName: {
+        en: 'Arbatel',
+        de: 'Arbatel',
+        fr: 'Arbatel',
+        ja: 'アルバテル',
+        cn: '古术魔典',
+        ko: '아르바텔',
+      },
+      rarity: 0,
+    },
+    {
+      id: 34,
+      name: {
+        en: 'Tiny Mage',
+        de: 'Winzige Magier',
+        fr: 'Petit mage',
+        ja: 'タイニーメイジ',
+        cn: '小小法师',
+        ko: '타이니 메이지',
+      },
+      shortName: {
+        en: 'Mage',
+        de: 'Magier',
+        fr: 'Mage',
+        ja: 'メイジ',
+        cn: '小小法师',
+        ko: '메이지',
+      },
+      rarity: 0,
+    },
+    {
+      id: 35,
+      name: {
+        en: 'Algol',
+        de: 'Algol',
+        fr: 'Algol',
+        ja: 'アルゴル',
+        cn: '阿尔戈尔',
+        ko: '알골',
+      },
+      shortName: {
+        en: 'Algol',
+        de: 'Algol',
+        fr: 'Algol',
+        ja: 'アルゴル',
+        cn: '阿尔戈尔',
+        ko: '알골',
+      },
+      rarity: 0,
+    },
+    {
+      id: 38,
       name: {
         en: 'Metamorph',
         de: 'Metamorpha',
@@ -59,7 +119,7 @@ export const zoneInfoNorthHorn: EurekaZoneInfo = {
       rarity: 0,
     },
     {
-      id: 3,
+      id: 41,
       name: {
         en: 'Pallmagia',
         de: 'Bleicher Magia',
@@ -79,7 +139,7 @@ export const zoneInfoNorthHorn: EurekaZoneInfo = {
       rarity: 0,
     },
     {
-      id: 4,
+      id: 42,
       name: {
         en: 'Phantom Necromancer',
         de: 'Kreszenter Nekromant',
@@ -99,7 +159,7 @@ export const zoneInfoNorthHorn: EurekaZoneInfo = {
       rarity: 0,
     },
     {
-      id: 5,
+      id: 44,
       name: {
         en: 'The Abductor',
         de: 'Abduktor',
@@ -119,7 +179,7 @@ export const zoneInfoNorthHorn: EurekaZoneInfo = {
       rarity: 0,
     },
     {
-      id: 6,
+      id: 48,
       name: {
         en: 'Claret Dragon',
         de: 'Rubrum-Drache',
@@ -139,7 +199,7 @@ export const zoneInfoNorthHorn: EurekaZoneInfo = {
       rarity: 0,
     },
     {
-      id: 7,
+      id: 50,
       name: {
         en: 'The Alabaster Blade',
         de: 'Alabaster-Klinge',
@@ -159,7 +219,7 @@ export const zoneInfoNorthHorn: EurekaZoneInfo = {
       rarity: 0,
     },
     {
-      id: 8,
+      id: 53,
       name: {
         en: 'Conjured Calofisteri',
         de: 'Calofisteri-Doppelgängerin',
@@ -175,66 +235,6 @@ export const zoneInfoNorthHorn: EurekaZoneInfo = {
         ja: 'ダブル',
         cn: '卡洛菲斯提莉二重身',
         ko: '칼로피스테리',
-      },
-      rarity: 0,
-    },
-    {
-      id: 9,
-      name: {
-        en: 'Arbatel',
-        de: 'Arbatel',
-        fr: 'Arbatel',
-        ja: 'アルバテル',
-        cn: '古术魔典',
-        ko: '아르바텔',
-      },
-      shortName: {
-        en: 'Arbatel',
-        de: 'Arbatel',
-        fr: 'Arbatel',
-        ja: 'アルバテル',
-        cn: '古术魔典',
-        ko: '아르바텔',
-      },
-      rarity: 0,
-    },
-    {
-      id: 10,
-      name: {
-        en: 'Algol',
-        de: 'Algol',
-        fr: 'Algol',
-        ja: 'アルゴル',
-        cn: '阿尔戈尔',
-        ko: '알골',
-      },
-      shortName: {
-        en: 'Algol',
-        de: 'Algol',
-        fr: 'Algol',
-        ja: 'アルゴル',
-        cn: '阿尔戈尔',
-        ko: '알골',
-      },
-      rarity: 0,
-    },
-    {
-      id: 11,
-      name: {
-        en: 'Tiny Mage',
-        de: 'Winzige Magier',
-        fr: 'Petit mage',
-        ja: 'タイニーメイジ',
-        cn: '小小法师',
-        ko: '타이니 메이지',
-      },
-      shortName: {
-        en: 'Mage',
-        de: 'Magier',
-        fr: 'Mage',
-        ja: 'メイジ',
-        cn: '小小法师',
-        ko: '메이지',
       },
       rarity: 0,
     },
