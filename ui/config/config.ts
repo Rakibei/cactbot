@@ -763,6 +763,20 @@ export class CactbotConfigurator {
     header.innerText = displayName;
     section.appendChild(header);
 
+    const updateStickyState = () => {
+      const sectionRect = section.getBoundingClientRect();
+      const headerRect = header.getBoundingClientRect();
+
+      const isStuck = sectionRect.top < 0 &&
+        headerRect.top <= 0 &&
+        sectionRect.bottom > headerRect.height;
+
+      header.classList.toggle('is-stuck', isStuck);
+    };
+
+    window.addEventListener('scroll', updateStickyState, { passive: true });
+    updateStickyState();
+
     const groupDiv = document.createElement('div');
     groupDiv.classList.add('overlay-options');
     section.appendChild(groupDiv);
