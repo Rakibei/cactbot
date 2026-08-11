@@ -493,8 +493,7 @@ export const zoneInfoNorthHorn: EurekaZoneInfo = {
       y: 25.8,
       bunny: true,
       fateId: 2073,
-      partnerFateId: 2072,
-      partnerFateRespawnMinutes: 30,
+      respawnMinutes: 60,
     },
     daylightpottery: {
       label: {
@@ -518,8 +517,7 @@ export const zoneInfoNorthHorn: EurekaZoneInfo = {
       y: 11.6,
       bunny: true,
       fateId: 2072,
-      partnerFateId: 2073,
-      partnerFateRespawnMinutes: 30,
+      respawnMinutes: 60,
     },
     /* theforkedtowermagic: {
       label: {
