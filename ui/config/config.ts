@@ -661,11 +661,6 @@ export class CactbotConfigurator {
     selectorContainer.classList.add('category-selector-container');
     toolbar.appendChild(selectorContainer);
 
-    const selectorLabel = document.createElement('span');
-    selectorLabel.classList.add('category-selector-label');
-    selectorLabel.innerText = 'Category';
-    selectorContainer.appendChild(selectorLabel);
-
     const selector = document.createElement('select');
     selector.classList.add('category-selector');
     selectorContainer.appendChild(selector);
